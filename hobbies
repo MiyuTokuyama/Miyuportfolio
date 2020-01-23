@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewpoint" content="width=device-width">
+        <title>MY PORTFOLIO</title>
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/colors_and_fonts.css">
+		<style>
+		 img:hover{
+		    border: 1px solid blue;
+		  }
+		  </style>
+    </head>
+    <body>
+        <header>
+            <h1>Muu's portfolio</h1>
+            <h2>Projects from Computer skills IB</h2>
+            <nav id="sitenav">
+                <ol>
+                    <li><a href="my portfolio.html">Home</a></li>
+                    <li><a href="http://www.ict-kanazawa.ac.jp" target="_blank">About ICT</a></li>
+                    <li><a href="CS1B-day6_Miyu.html">My Favorite!</a></li>
+                </ol>
+            </nav>
+        </header>
+        <div id="main">
+            <article class="content" id="welcome">
+<body>
+<table>
+ <caption>My Hobbies</caption>
+ 
+ <thead
+  <th>Hobbies</th>
+  <th>Description</th>
+  <th>Links</th>
+  </thead>
+  <tr>
+    <td>Playing Tennis</td>
+    <td>Use ball and rackets</td>
+<td><a href='https://en.wikipedia.org/wiki/Tennis'>Link
+  </a>
+ </td>
+ </tr>
+ <tr>
+   <td>Listening to Musuc</td>
+   <td>I like IZ*ONE.</td>
+   <td><a href='https://www.izone-official.com/'>Link</a>
+   </td>
+ </tr>
+ <tr>
+   <td>Watching Movies</td>
+   <td>I love Tangled.</td>
+   <td><a href='https://en.wikipedia.org/wiki/Tangled'>Link</a>
+   </td>
+ </tr>
+</table>
+</body>
+
+
+
+
+            </article>
+            <aside id="sidebar">
+                <h3>Muu Projects</h3>
+                <ol>
+                    <li><a href="#welcome">TOP</a></li>
+                    <li><a href="#STEM 2019">STEM 2019</a></li>
+                    <li><a href="#WORST DESIGN">WORST DESIGN</a></li>
+                </ol>
+            </aside>
+            <footer>
+                <p>Muu is studying about science and technology at the
+                    <a href="http://www.ict-kanazawa.ac.jp">International College of Technology</a> in Kanazawa, Japan.
+                </p>
+            </footer>
+        </div>
+    </body>
+
+</html>

@@ -61,9 +61,42 @@ img{
     max-width: 960px;
     height: auto;
 }
-@media(max-width: 600px){
-     #main{
-      padding: 0;
- visibility: hidden;
-      }
-    }
+@media (max-width: 600px) {
+	#main{
+		padding: 0;
+	}
+	#sidebar {
+		visibility: hidden;
+	}
+	
+	
+	thead tr {
+		display: none;
+	}
+	
+	 table{
+		 width:100%
+	 }
+	td{
+		display: block;
+		position: relative;
+	    padding-left: 30%;
+	   
+	}
+	
+	td:nth-of-type(1):before {content:"Name:"}
+	td:nth-of-type(2):before {content:"Description: "}
+	td:nth-of-type(3):before {content:"More Info: "}
+	
+	td:before {
+		position: absolute;
+		top: 1px;
+		left: 2px;
+		padding-right: 30px;
+	}
+	thead tr{
+    display: none;
+	}
+	tr:nth-of-type(odd) {background:lightgray;}
+}
+
